@@ -29,7 +29,7 @@ p{
 
 }
 .half-width{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 40%;
   float: left;
   margin-left: 5%;
@@ -44,7 +44,7 @@ p{
   top: 120px;
 }
 section{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 570px;
   padding: 80px 0;
 }
@@ -87,4 +87,37 @@ section{
   background-image: url("images/latest-work-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* bottom area */
+.bottom-area{
+  text-align: center;
+  height: 400px;
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+h5{
+  margin: 0;
+  color: gray;
+}
+h4{
+  margin-bottom: 0;
+}
+blockquote{
+  padding: 20px;
+}
+#contact{
+  background-image: linear-gradient(45deg, #ff80bf, #ff3399);
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+#contact p, h3{
+  color: white;
+  padding: 0;
+}
+footer p{
+  font-size: 12px;
+  text-align: center;
 }
