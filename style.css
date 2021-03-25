@@ -4,13 +4,15 @@ body{
 }
 h1{
   font-size: 50px;
-  color: #ff3399;
   margin: 0;
 }
 h2{
   font-size: 40px;
   font-weight: 400;
   margin: 0;
+}
+.name-highlight{
+  color: #ff3399;
 }
 p{
   color: dimgray;
@@ -62,4 +64,27 @@ section{
   position: relative;
   top: 90px;
   right: 40px;
+}
+/* experience area */
+.work-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.single-work{
+  width: 25%;
+  box-shadow: 10px 10px 40px gray;
+  /* border-radius: 10px; */
+}
+.single-work img{
+  width: 100%;
+}
+#work-title{
+  text-align: center;
+}
+.experience-area{
+  height: 400px;
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
